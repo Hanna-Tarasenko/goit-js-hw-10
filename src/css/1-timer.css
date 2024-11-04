@@ -1,0 +1,88 @@
+.timer-section {
+  margin-top: 36px;
+  margin-left: 156px;
+}
+.text-input {
+  width: 272px;
+  max-height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.text-input:hover {
+  border: 1px solid #000;
+}
+.text-input:active {
+  border: 1px solid #4e75ff;
+}
+.text-input:disabled {
+  border: 1px solid #808080;
+  background-color: #fafafa;
+  color: #808080;
+}
+.timer-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  color: #fff;
+  background-color: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.timer-btn:hover {
+  color: #fff;
+  background-color: #6c8cff;
+}
+.timer-btn:disabled {
+  color: #989898;
+  background-color: #cfcfcf;
+}
+.timer {
+  margin-top: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+  width: 346px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.field {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}

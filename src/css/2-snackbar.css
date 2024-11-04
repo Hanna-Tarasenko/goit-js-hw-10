@@ -1,0 +1,67 @@
+.form {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 156px;
+  width: 360px;
+}
+
+.snack-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+.snack-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+}
+.snack-input:hover,
+.snack-input:focus {
+  border-color: #000;
+}
+.snack-fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  padding-left: 48px;
+  padding-top: 14px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+.snack-fieldset:hover,
+.snack-fieldset:focus {
+  border-color: #000;
+}
+.form-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.form-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 8px 99px;
+  border: none;
+}
+.form-btn:hover {
+  background-color: #6c8cff;
+}
